@@ -2,15 +2,15 @@
 ## It consist of two functions, "makeCacheMatrix" and "cacheSolve".
 ## The first function takes a matrix as an argument and returns a vector
 ## containing two functions which set and get the matrix itself and two
-## function serving as a cache for the matrix's invert value.
-## The second functions takes the vector created by makeCacheMatrix as an
+## functions serving as a cache for the matrix's invert value.
+## The second function takes the vector created by makeCacheMatrix as an
 ## argument and returns the inverted value of the matrix. In case the inverted
 ## value is cached by makeCacheMatrix it returns the cached value, otherwise it
 ## calculates the inverted matrix and stores it in the makeCacheMatrix's cache.
 
 
 ## makeCacheMatrix takes an invertible matrix as an argument and returns
-## a vector consisting of four functions:
+## a vector consisting of four function refererences:
 ## set - sets the value of the matrix
 ## get - gets the value of the matrix
 ## setinverse - sets the value of the inverted matrix
